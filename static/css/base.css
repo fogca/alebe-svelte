@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'TWKL';
+    src: url('../font/TWKLausanne-300.woff2') format('woff2');    
+}
+
+:root {
+
+    --lightColor: #F2F4F4;
+    --darkColor: #181818;
+    --textColor: #360F0C;
+    
+    --outer-height: 100vh;
+    
+    --padding: 6.25vw;
+    --padding-pc: 12.5vw;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {font-size: 62.5%;}
+html, body {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--lightColor);
+    scroll-behavior: smooth;
+}
+
+/*GillSansMTPro-LightItalic / */
+div, h1, h2, h3, h4, h5, h6, p, a, span, button {
+    font-family: Optima, "Optima", dnp-shuei-gothic-gin-std,
+    "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: 500;
+    color: var(--textColor);
+    font-display: swap;
+    font-feature-settings: "palt";
+    letter-spacing: .025em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+    line-height: 2.1;
+}
+
+:lang(en) {
+    letter-spacing: .005em;/*for astro*/
+    letter-spacing: .01em;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+}
+
+.h0 {font-size: 2.8rem;}
+h1, .h1 {font-size: 2.4rem;}
+h2, .h2 {font-size: 2.0rem;}
+h3, .h3 {font-size: 1.8rem;}
+h4, .h4 {font-size: 1.6rem;}
+h5, .h5 {font-size: 1.4rem;}
+h6, .h6 {font-size: 1.2rem;}
+.h7 {font-size: 1.0rem;}
+
+p, .p {
+    line-height: 2.2;
+    font-size: 1.25rem;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+li {text-decoration: none;}
+a {
+    text-decoration: none;
+    display: inline-block;
+    transition: .75s ease-in-out;
+}
+a:hover {opacity: .85;}
+img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 50%;
+}
+ul li {text-decoration: none;list-style: none;}
+main {margin: auto;}
+.pc {display: none;}
+
+section {
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}
+
+
+@media screen and (min-width: 720px) {
+    html {font-size: 55%;}
+
+    section {
+        padding-left: var(--padding-pc);
+        padding-right: var(--padding-pc);
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 720px) {
+    html {font-size: 50%;}
+}
+  
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+        /* For portrait layouts only */
+}
+
+@media screen and (min-width: 720px) {
+    html {font-size: 62.5%;}
+    .h0 {font-size: 4.2rem;}
+    h1, .h1 {font-size: 3.6rem;}
+    h2, .h2 {font-size: 2.6rem;}
+    h3, .h3 {font-size: 2.2rem;}
+    h4, .h4 {font-size: 1.8rem;}
+    h5, .h5 {font-size: 1.5rem;}
+    h6, .h6 {font-size: 1.2rem;}
+    .h7 {font-size: 1.0rem;}
+p, .p {
+    font-size: 1.5rem;
+    text-align: left;
+}
+.sp {display: none;}
+.pc {display: inline-block;}
+
+}
+
+
