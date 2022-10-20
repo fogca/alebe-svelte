@@ -6,6 +6,8 @@
 }
 .dark-mode .l-line {background: var(--lightColor);}
 
+.About footer .l-line, .Contact footer .l-line {background-color: var(--lightColor) !important;}
+
 .page-top {padding-top: 15rem;}
 .page-top h1 {
 	font-size: 3.6rem;

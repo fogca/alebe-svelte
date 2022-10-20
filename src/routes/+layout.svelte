@@ -14,7 +14,7 @@ import { afterNavigate, beforeNavigate } from '$app/navigation';
 </script>
   
 <svelte:head>
-  <title>ALEBE - Vintage Curation Studio</title>
+  <title>ALEBE - Vintage Curation Boutique</title>
   <meta content="日々の生活にエッセンスを与えるヴィンテージブランド、ALEBE。欧州を中心にキュレーションされたアイテムは、グラスやカトラリーといったテーブルウェアから、アクセサリーやオブジェクトまで多岐にわたり、日々を彩る。古きに敬意を払い、愛情をもって、受け継ぎ、繋いでいくことをブランドの核なる想いとし、古物と真摯に向き合い、アイテムを届けている。" name="description">
   <meta charset="utf-8">
   <meta property="og:title" content="ページの タイトル" />

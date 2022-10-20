@@ -63,7 +63,7 @@
             <Saos animation={"body 1.8s 1.7s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}><div class="container">Scroll Down</div></Saos>
         </div>
         <div class="shop h2" lang="en">
-            <Saos animation={"body 1.8s 2.2s cubic-bezier(.75, 0, 0.25, 1) both"} once={true}><div class="container">Shop Now</div></Saos>
+            <Saos animation={"body 1.8s 2.2s cubic-bezier(.75, 0, 0.25, 1) both"} once={true}><a href="https://store.alebe.jp/" target="blank_" class="container">Shop Now</a></Saos>
         </div>
 
 	</section>
@@ -113,7 +113,7 @@
         </Saos>
         <div class="l-banners">
             <Saos animation={"body 1.25s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
-            <a href="/">
+            <a href="https://store.alebe.jp/collections/glassware" target="blank_">
                 <div class="l-white">
                     <h3 class="h1" lang="en">Tableware</h3>
                     <h4 class="h6">陶磁器やカトラリーなどのテーブルアイテム</h4>
@@ -122,7 +122,7 @@
             </a>
             </Saos>
             <Saos animation={"body 1.25s .3s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
-            <a href="/">
+            <a href="https://store.alebe.jp/collections/accessory" target="blank_">
                 <div class="l-white">
                     <h3 class="h1" lang="en">Accessory</h3>
                     <h4 class="h6">ネックレスやピアスなどの宝飾品</h4>
@@ -153,6 +153,7 @@
         </Saos>
     </section>
 
+    <!--
     <section id="index-news">
         <div class="l-headings">
             <h1 class="h5" lang="en">News</h1>
@@ -160,6 +161,7 @@
         </div>
         <p>コレクションや <br>ポップアップに関するお知らせ</p>
     </section>
+    -->
 </main>
 
 

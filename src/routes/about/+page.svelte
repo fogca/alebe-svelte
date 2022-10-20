@@ -21,7 +21,7 @@
             <Saos animation={"body 1.25s .3s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
             <h1 class="h5" lang="en">Identity</h1></Saos>
             <Saos animation={"body 1.25s .4s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
-            <h2 class="h0" lang="en">Our Philosophy <br>& Brand Identity</h2></Saos>
+            <h2 class="h0" lang="en">Our Philosophy & <br>Brand Identity</h2></Saos>
         </div>
 
         <Saos animation={"body 1.25s .5s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>

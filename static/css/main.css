@@ -33,16 +33,6 @@
 */
 
 
-.js-scroll {
-    opacity: 0;
-    transform: translateY(10px);
-    transition: 2.5s cubic-bezier(.4,.1,.1,1);
-}
-.js-scroll.active {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 .Index {background-color: var(--backgroundColor);}
 
 #index-projects .l-card div {height: inherit;}
@@ -77,6 +67,7 @@ main {
     */
 }
 
+main section:nth-last-of-type(1) {padding-bottom: 6rem;}
 
 
 .section-head {margin-bottom: 3rem;}
