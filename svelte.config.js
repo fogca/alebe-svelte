@@ -8,6 +8,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		//prefetchLinks: true,
+		trailingSlash: 'always',
 	}
 };
 
