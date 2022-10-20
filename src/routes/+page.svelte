@@ -1,16 +1,57 @@
 <script>
 	import Arrow from '../components/Arrow.svelte';
 	import Saos from "saos";
+    import { MetaTags } from 'svelte-meta-tags';
 </script>
 
 <svelte:head>
-	<title>ALEBE - Vintage Curation Studio</title>
+	<title>ALEBE | Vintage Curation Boutique</title>
+    <meta content="概要文を120文字程度" name="description">
+    <meta property="og:title" content="ALEBE | Vintage Curation Boutique" />
 </svelte:head>
+
+<MetaTags
+  title="ALEBE | Vintage Curation Boutique"
+  description="日々の生活にエッセンスを与えるヴィンテージブランド、ALEBE。欧州を中心にキュレーションされたアイテムは、グラスやカトラリーといったテーブルウェアから、アクセサリーやオブジェクトまで多岐にわたり、日々を彩る。古きに敬意を払い、愛情をもって、受け継ぎ、繋いでいくことをブランドの核なる想いとし、古物と真摯に向き合い、アイテムを届けている。"
+  canonical="https://www.canonical.ie/"
+  openGraph={{
+    url: 'https://www.alebe.jp/',
+    title: 'Vintage Curation Boutique',
+    description: '日々の生活にエッセンスを与えるヴィンテージブランド、ALEBE。欧州を中心にキュレーションされたアイテムは、グラスやカトラリーといったテーブルウェアから、アクセサリーやオブジェクトまで多岐にわたり、日々を彩る。古きに敬意を払い、愛情をもって、受け継ぎ、繋いでいくことをブランドの核なる想いとし、古物と真摯に向き合い、アイテムを届けている。',
+    images: [
+      {
+        url: 'https://www.alebe-svelte.pages.dev/images/alebe_kv.JPG',
+        width: 800,
+        height: 600,
+        alt: 'ALEBE Key Visual'
+      },
+      {
+        url: 'https://www.alebe-svelte.pages.dev/images/alebe_kv.JPG',
+        width: 900,
+        height: 800,
+        alt: 'ALEBE Key Visual'
+      }
+    ],
+    site_name: 'ALEBE | Vintage Curation Boutique'
+  }}
+  twitter={{
+    handle: '@handle',
+    site: '@site',
+    cardType: 'summary_large_image',
+    title: 'ALEBE | Vintage Curation Boutique',
+    description: '日々の生活にエッセンスを与えるヴィンテージブランド、ALEBE。欧州を中心にキュレーションされたアイテムは、グラスやカトラリーといったテーブルウェアから、アクセサリーやオブジェクトまで多岐にわたり、日々を彩る。古きに敬意を払い、愛情をもって、受け継ぎ、繋いでいくことをブランドの核なる想いとし、古物と真摯に向き合い、アイテムを届けている。',
+    image: 'https://www.alebe-svelte.pages.dev/images/alebe_kv.JPG',
+    imageAlt: 'Twitter image alt'
+  }}
+  facebook={{
+    appId: '1234567890'
+  }}
+/>
 
 <main>
 	<section id="index-top" class="l-full-img">
 		<Saos animation={"opening-img 3.0s cubic-bezier(0.65, 0, 0.35, 1) both"} once={true}>
-			<img src="../image/kv.webp" alt="" class="kv">
+			<img src="../image/alebe_kv.JPG" alt="" class="kv">
 		</Saos>
 
         <div class="texts">
@@ -120,6 +161,8 @@
         <p>コレクションや <br>ポップアップに関するお知らせ</p>
     </section>
 </main>
+
+
 
 
 <style>
