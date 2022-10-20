@@ -2,11 +2,42 @@
 	import Arrow from '../../components/Arrow.svelte';
     import Logo from '../../components/Logo.svelte';
 	import Saos from "saos";
+    import { MetaTags } from 'svelte-meta-tags';
 </script>
 
 <svelte:head>
 	<title>Contact | ALEBE - Vintage Curation Studio</title>
 </svelte:head>
+
+
+<MetaTags
+  title="Contact | ALEBE - Vintage Curation Boutique"
+  description="日々の生活にエッセンスを与えるヴィンテージブランド、ALEBE。欧州を中心にキュレーションされたアイテムは、グラスやカトラリーといったテーブルウェアから、アクセサリーやオブジェクトまで多岐にわたり、日々を彩る。古きに敬意を払い、愛情をもって、受け継ぎ、繋いでいくことをブランドの核なる想いとし、古物と真摯に向き合い、アイテムを届けている。"
+  canonical="https://www.canonical.ie/"
+  openGraph={{
+    url: 'https://www.alebe.jp/contact/',
+    title: 'Contact | ALEBE - Vintage Curation Boutique',
+    description: '日々の生活にエッセンスを与えるヴィンテージブランド、ALEBE。欧州を中心にキュレーションされたアイテムは、グラスやカトラリーといったテーブルウェアから、アクセサリーやオブジェクトまで多岐にわたり、日々を彩る。古きに敬意を払い、愛情をもって、受け継ぎ、繋いでいくことをブランドの核なる想いとし、古物と真摯に向き合い、アイテムを届けている。',
+    images: [
+      {
+        url: 'https://www.alebe-svelte.pages.dev/images/alebe_kv.JPG',
+        width: 800,
+        height: 600,
+        alt: 'ALEBE Key Visual'
+      }
+    ],
+    site_name: 'ALEBE | Vintage Curation Boutique'
+  }}
+  twitter={{
+    handle: '@handle',
+    site: '@site',
+    title: 'Contact | ALEBE - Vintage Curation Boutique',
+    description: '日々の生活にエッセンスを与えるヴィンテージブランド、ALEBE。欧州を中心にキュレーションされたアイテムは、グラスやカトラリーといったテーブルウェアから、アクセサリーやオブジェクトまで多岐にわたり、日々を彩る。古きに敬意を払い、愛情をもって、受け継ぎ、繋いでいくことをブランドの核なる想いとし、古物と真摯に向き合い、アイテムを届けている。',
+    image: 'https://www.alebe-svelte.pages.dev/images/alebe_kv.JPG',
+    imageAlt: 'Twitter image alt'
+  }}
+/>
+
 
 <main class="page dark-mode">
 	<section id="contact-top" class="page-top">

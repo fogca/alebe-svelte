@@ -6,8 +6,6 @@
 
 <svelte:head>
 	<title>ALEBE | Vintage Curation Boutique</title>
-    <meta content="概要文を120文字程度" name="description">
-    <meta property="og:title" content="ALEBE | Vintage Curation Boutique" />
 </svelte:head>
 
 <MetaTags
