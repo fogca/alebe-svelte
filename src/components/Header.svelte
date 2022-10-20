@@ -13,23 +13,19 @@
 </script>
 
 <header class="top">
-    <div class="head">
-        <Saos animation={"header-logo 1.5s cubic-bezier(0.3, 0, 0.7, 1) both"} once={true}>
-            <a href="/" class="logo"><Logo /></a>
-        </Saos>
-        <Saos animation={"header-logo 1.5s cubic-bezier(0.3, 0, 0.7, 1) both"} once={true}>
-            <div class="button menu-button h6" 
-                class:clicked={clicked} 
-                on:click="{() => clicked = !clicked}"
-                on:click|preventDefault={clickHandler}
-            >
-                <div>Menu</div>
-                <span></span>
-                <span></span>
-            </div>
-        </Saos>
-        
-    </div>
+    <Saos animation={"header-logo 1.5s cubic-bezier(0.3, 0, 0.7, 1) both"} once={true}>
+        <a href="/" class="logo"><Logo /></a>
+    </Saos>
+    <Saos animation={"header-logo 1.5s cubic-bezier(0.3, 0, 0.7, 1) both"} once={true}>
+        <div class="button menu-button h6" 
+            class:clicked={clicked} 
+            on:click="{() => clicked = !clicked}"
+            on:click|preventDefault={clickHandler}
+        >
+            <span></span>
+            <span></span>
+        </div>
+    </Saos>
 </header>
 
     {#if isExpanded}
@@ -52,10 +48,13 @@
         position: absolute;
         top: 0;
         left: 0;
-        z-index: 96;
+        z-index: 99;
         transition: 2.5s ease-in-out;
         mix-blend-mode: difference;
         filter: contrast(2) brightness(1.5);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     header.top {
         transition: 2.5s ease-in-out;
@@ -69,6 +68,22 @@
         opacity: .25;
         margin-left: -5vw;
         margin-top: 1.5rem;
+    }
+
+    header .menu-button span {
+        display: block;
+        width: 3.2rem;
+        height: 1.4px;
+        opacity: 1;
+        background-color: var(--lightColor);
+        margin-bottom: .5rem;
+        transition: .75s ease-in-out;
+    }
+    header .menu-button.clicked span:nth-of-type(1) {
+        transform: rotate(15deg) translateY(.32rem);
+    }
+    header .menu-button.clicked span:nth-of-type(2) {
+        transform: rotate(-15deg) translateY(-.32rem);
     }
 
     @media screen and (min-width:720px) {

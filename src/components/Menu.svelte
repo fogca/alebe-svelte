@@ -9,8 +9,6 @@ import { expoInOut, expoOut } from 'svelte/easing';
     in:fade={{ delay: 0, duration: 1500, easing: expoInOut }}
     out:fade={{ delay: 0, duration: 1000, easing: expoOut }}
 >   
-    <a href="/" class="menu-logo"><Logo /></a>
-    
     <ul class="links">
         <li in:fly={{ y: 10, delay: 0, duration: 2500, easing: expoInOut }}><a href="/projects">Projects →</a></li>
         <li in:fly={{ y: 10, delay: 50, duration: 2500, easing: expoInOut }}><a href="/about">About →</a></li>

@@ -9,9 +9,22 @@
 
 <main>
 	<section id="index-top" class="l-full-img">
-		<Saos animation={"opening-img 1.5s cubic-bezier(0.3, 0, 0.7, 1) both"} once={true}>
+		<Saos animation={"opening-img 3.0s cubic-bezier(0.65, 0, 0.35, 1) both"} once={true}>
 			<img src="../image/kv.webp" alt="" class="kv">
 		</Saos>
+
+        <div class="texts">
+            <Saos animation={"body 1.8s 1.2s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
+                <div class="container">欧米諸国を中心に中世から近世にかけて製造されたアイテムをキュレーション。日々の生活に<br>エッセンスを加えるアイコニックなオブジェクトやテーブルウェア、アクセサリーを扱っております。</div>
+            </Saos>
+        </div>
+        <div class="scroll h3" lang="en">
+            <Saos animation={"body 1.8s 1.7s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}><div class="container">Scroll Down</div></Saos>
+        </div>
+        <div class="shop h2" lang="en">
+            <Saos animation={"body 1.8s 2.2s cubic-bezier(.75, 0, 0.25, 1) both"} once={true}><div class="container">Shop Now</div></Saos>
+        </div>
+
 	</section>
 
     <section id="index-concept">
@@ -115,12 +128,56 @@
         0% {transform: translateY(.5rem);opacity: 0;}
         100% {transform: translateY(0);opacity: 1;}
     }
+    @keyframes -global-opening-img {
+        0% {transform: scale(1.05); opacity: 0;}
+        100% {transform: scale(1); opacity: 1;}
+    }
 
     #index-top {height: 100vh;}
     #index-concept {padding-top: 6rem;}
     #index-products, #index-gallery {padding-top: 8rem;}
     #index-concept p, 
     #index-products p, #index-gallery p {width: 80%;}
+
+
+
+    #index-top .shop, #index-top .scroll, #index-top .texts {position: absolute;}
+    #index-top .shop {
+        top: auto;left: auto;
+        bottom: 0;right: 0;
+    }
+    #index-top .shop .container {
+        padding: 2rem 4rem;
+        background-color: var(--lightColor);
+    }
+    #index-top .texts {
+        top: 8rem;
+        left: auto;
+        right: calc( var(--padding) - .5rem);
+        height: 90vh;
+    }
+    #index-top .texts .container {
+        color: var(--lightColor);
+        letter-spacing: .15em;
+        writing-mode: vertical-rl;
+        font-feature-settings: initial;
+    }
+    #index-top .scroll {
+        top: auto;
+        bottom: 7rem;
+        left: var(--padding);
+    }
+    #index-top .scroll .container {
+        color: var(--lightColor);
+        white-space: nowrap;
+        writing-mode: vertical-rl;
+        font-feature-settings: initial;
+    }
+
+
+
+
+
 
     #index-products .l-banners {margin-top: 4rem;}
 
