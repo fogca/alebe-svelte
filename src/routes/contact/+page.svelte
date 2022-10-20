@@ -13,7 +13,7 @@
 <MetaTags
   title="Contact | ALEBE - Vintage Curation Boutique"
   description="日々の生活にエッセンスを与えるヴィンテージブランド、ALEBE。欧州を中心にキュレーションされたアイテムは、グラスやカトラリーといったテーブルウェアから、アクセサリーやオブジェクトまで多岐にわたり、日々を彩る。古きに敬意を払い、愛情をもって、受け継ぎ、繋いでいくことをブランドの核なる想いとし、古物と真摯に向き合い、アイテムを届けている。"
-  canonical="https://www.canonical.ie/"
+  canonical="https://alebe.jp/contact/"
   openGraph={{
     url: 'https://alebe.jp/contact/',
     title: 'Contact | ALEBE - Vintage Curation Boutique',
