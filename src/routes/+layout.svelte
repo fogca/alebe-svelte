@@ -14,7 +14,6 @@ import { afterNavigate, beforeNavigate } from '$app/navigation';
 </script>
   
 <svelte:head>
-  <link href="resource-url"rel="directive"as="ressource-type"crossorigin="value"/>
   <link rel="stylesheet" href="../css/base.css">
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/layout.css">
