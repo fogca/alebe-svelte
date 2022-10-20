@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'TWKL';
-    src: url('../font/TWKLausanne-300.woff2') format('woff2');    
+    font-family: 'AOH-Alebe-Optima-Humanist';
+    src: url('../font/Optima.woff2') format('woff2');    
 }
 
 :root {
@@ -33,7 +33,7 @@ html, body {
 
 /*GillSansMTPro-LightItalic / */
 div, h1, h2, h3, h4, h5, h6, p, a, span, button {
-    font-family: Optima, "Optima", dnp-shuei-gothic-gin-std,
+    font-family: "AOH-Alebe-Optima-Humanist", Optima, "Optima", dnp-shuei-gothic-gin-std,
     "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
     font-weight: 500;
     color: var(--textColor);
