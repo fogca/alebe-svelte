@@ -34,6 +34,7 @@
 
 
 .Index {background-color: var(--backgroundColor);}
+.Index footer {padding-top: 2rem;}
 
 #index-projects .l-card div {height: inherit;}
 

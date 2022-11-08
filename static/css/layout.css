@@ -47,7 +47,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 2.5rem .15rem 2.25rem .5rem;
+	padding: 2.1rem .15rem 1.8rem .5rem;
 }
 
 .l-banners {display: flex;flex-direction: column;}
@@ -56,7 +56,7 @@
 	height: 50vw;
 	padding-top: 1.5rem;
 	padding-left: var(--padding);
-	padding-right: calc( var(--padding) * .5 );
+	padding-right: calc( var(--padding) * 1 );
 	margin-left: calc( var(--padding) * -1 );
 	position: relative;
 	background-image: url('../../image/kv.webp');

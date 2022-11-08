@@ -76,20 +76,23 @@
             </Saos>
         </div>
         <Saos animation={"body 1.25s .30s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
-            <p>欧米諸国を中心に中世から近世にかけて製造されたアイテムをキュレーション。日々の生活にエッセンスを加えるようなアイコニックなオブジェクトやテーブルウェア、アクセサリーを扱っております。</p>
+            <p>欧米諸国を中心に中世から近世にかけて製造された<br>
+                アイテムをキュレーション。日々の生活に<br>
+                エッセンスを加えるアイコニックなオブジェクトや<br>
+                テーブルウェア、アクセサリーを扱っております。</p>
         </Saos>
         <div class="l-links">
             <Saos animation={"body 1.25s .30s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
             <div class="l-line"></div>
             <a href="/about">
-                <div class="h1" lang="en">About Us</div>
+                <div class="h2" lang="en">About Us</div>
                 <Arrow />
             </a>
             <div class="l-line"></div>
             </Saos>
             <Saos animation={"body 1.25s .40s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
             <a href="/contact#contact-press">
-                <div class="h1" lang="en">Press Kit</div>
+                <div class="h2" lang="en">Press Kit</div>
                 <Arrow />
             </a>
             <div class="l-line"></div>
@@ -103,11 +106,14 @@
             <Saos animation={"body 1.25s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
             <h1 class="h5" lang="en">Products</h1></Saos>
             <Saos animation={"body 1.25s .15s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
-            <h2 class="h0" lang="en">We Offer a variety of <br>Vintage Lifestyle items</h2></Saos>
+            <h2 class="h0" lang="en">We Offer a variety of <br>Lifestyle Vintage items</h2></Saos>
         </div>
 
         <Saos animation={"body 1.25s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
-            <p>欧米諸国を中心に中世から近世にかけて製造されたアイテムをキュレーション。日々の生活にエッセンスを加えるようなアイコニックなオブジェクトやテーブルウェア、アクセサリーを扱っております。</p>
+            <p>皆んなで囲む食卓に彩りをはこぶテーブルウェアや、<br>
+                暮らしの空間に、アクセントを与えるオブジェクト、<br>
+                お出かけの装いに華を添えるジュエリーなど、<br>
+                衣食住の幸せに寄り添う様々な古物を扱っております。</p>
         </Saos>
         <div class="l-banners">
             <Saos animation={"body 1.25s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
@@ -136,10 +142,12 @@
             <Saos animation={"body 1.25s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
             <h1 class="h5" lang="en">Gallery</h1></Saos>
             <Saos animation={"body 1.25s .15s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
-            <h2 class="h0" lang="en">How Vintage Items <br>Crossover with Lifestyle</h2></Saos>
+            <h2 class="h0" lang="en">
+                Harmony created <br>when vintage cross <br>over modern lives</h2></Saos>
         </div>
         <Saos animation={"body 1.25s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
-            <p>欧米諸国を中心に中世から近世にかけて製造されたアイテムをキュレーション。日々の生活にエッセンスを加えるようなアイコニックなオブジェクトやテーブルウェア、アクセサリーを扱っております。</p>
+            <p>ヴィンテージアイテムが現代の生活と<br>
+                交り合い、溶けこむで、もたらす独特の調和や彩り</p>
         </Saos>
         <Saos animation={"body 1.25s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
         <div class="wrapper">
@@ -151,15 +159,43 @@
         </Saos>
     </section>
 
-    <!--
+    
     <section id="index-news">
         <div class="l-headings">
             <h1 class="h5" lang="en">News</h1>
             <h2 class="h0" lang="en">Information about <br>Collection & Pop-Up</h2>
         </div>
         <p>コレクションや <br>ポップアップに関するお知らせ</p>
+        <div class="l-links">
+
+            <Saos animation={"body 1.25s .30s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
+            <div class="l-line"></div>
+            <a href="#index-news">
+                <div class="h2" lang="en">Coming Soon</div>
+                <Arrow />
+            </a>
+            <div class="l-line"></div>
+            </Saos>
+
+            <Saos animation={"body 1.25s .40s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
+            <a href="#index-news">
+                <div class="h2" lang="en">Coming Soon</div>
+                <Arrow />
+            </a>
+            <div class="l-line"></div>
+            </Saos>
+
+            <Saos animation={"body 1.25s .40s cubic-bezier(.75, 0, 0.5, 1) both"} once={true}>
+                <a href="#index-news">
+                    <div class="h2" lang="en">Coming Soon</div>
+                    <Arrow />
+                </a>
+                <div class="l-line"></div>
+            </Saos>
+
+        </div>
     </section>
-    -->
+    
 </main>
 
 
@@ -178,9 +214,8 @@
 
     #index-top {height: 100vh;}
     #index-concept {padding-top: 6rem;}
-    #index-products, #index-gallery {padding-top: 8rem;}
-    #index-concept p, 
-    #index-products p, #index-gallery p {width: 80%;}
+    #index-products, #index-gallery,
+    #index-news {padding-top: 8rem;}
 
 
 
@@ -243,7 +278,7 @@
     #index-gallery .wrapper img:nth-of-type(3) {height: 40vw;}
     #index-gallery .wrapper img:nth-of-type(4) {margin-top: -20vw;}
 
-    #index-news {display: none;}
+    
 
     @media screen and (min-width: 720px) {
 

@@ -5,8 +5,18 @@
 </div>
 
 <style>
-    .Arrow {width: 3.4rem;}
+    .Arrow, .Arrow svg {
+        width: 1.4rem;
+        height: 2.2rem;
+    }
+    
 
     #index-words .all .Arrow svg {width: 3.5rem;}
+
+    #index-products .Arrow svg {
+        height: 2.4rem;
+        width: fit-content;
+    }
+    #index-products .Arrow svg path {fill: var(--lightColor);}
 </style>
   
