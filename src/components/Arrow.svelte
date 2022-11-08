@@ -15,7 +15,7 @@
 
     #index-products .Arrow svg {
         height: 2.4rem;
-        width: fit-content;
+        width: 100%;
     }
     #index-products .Arrow svg path {fill: var(--lightColor);}
 </style>

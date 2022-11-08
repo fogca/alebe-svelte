@@ -208,8 +208,8 @@
         100% {transform: translateY(0);opacity: 1;}
     }
     @keyframes -global-opening-img {
-        0% {transform: scale(1.05); opacity: 0;}
-        100% {transform: scale(1); opacity: 1;}
+        0% {opacity: 0;}
+        100% {opacity: 1;}
     }
 
     #index-top {height: 100vh;}
@@ -218,7 +218,7 @@
     #index-news {padding-top: 8rem;}
 
 
-
+    #index-top {position: relative;}
     #index-top .shop, #index-top .scroll, #index-top .texts {position: absolute;}
     #index-top .shop {
         top: auto;left: auto;
@@ -230,8 +230,7 @@
     }
     #index-top .texts {
         top: 8rem;
-        left: auto;
-        right: calc( var(--padding) - .5rem);
+        left: calc(100% - var(--padding) - 3.8rem);
         height: 90vh;
     }
     #index-top .texts .container {
