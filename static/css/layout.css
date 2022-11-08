@@ -36,9 +36,10 @@
 
 .l-line {
 	width: calc(100vw - var(--padding));
-	height: 1px;
+	height: 1.4px;
 	background-color: var(--darkColor);
-	opacity: .3;
+	background-color: #ddd;
+	opacity: 1;
 }
 
 .l-links {margin-top: 4rem;}
