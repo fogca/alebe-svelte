@@ -21,8 +21,7 @@
 
 .l-full-img img.kv{
 	width: 100vw;
-	height: 100vh;
-	height: 100svh;
+	height: 100%;
 	margin-left: calc( var(--padding) * -1);
 }
 .l-headings h1 {
@@ -37,9 +36,9 @@
 
 .l-line {
 	width: calc(100vw - var(--padding));
-	height: .5px;
+	height: 1px;
 	background-color: var(--darkColor);
-	opacity: .4;
+	opacity: .3;
 }
 
 .l-links {margin-top: 4rem;}

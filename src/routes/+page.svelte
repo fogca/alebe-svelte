@@ -208,8 +208,8 @@
         100% {transform: translateY(0);opacity: 1;}
     }
     @keyframes -global-opening-img {
-        0% {opacity: 0;}
-        100% {opacity: 1;}
+        0% {opacity: 0;height: 100%;}
+        100% {opacity: 1;height: 100%;}
     }
 
     #index-top {height: 100vh;}
@@ -218,7 +218,13 @@
     #index-news {padding-top: 8rem;}
 
 
-    #index-top {position: relative;}
+    #index-top {
+        position: relative;
+        height: 100vh;
+        height: 100svh;
+    }
+    #index-top .kv {height: 100svh; height: 100vh;}
+    #index-top .shop, #index-top .scroll {height: fit-content;}
     #index-top .shop, #index-top .scroll, #index-top .texts {position: absolute;}
     #index-top .shop {
         top: auto;left: auto;
