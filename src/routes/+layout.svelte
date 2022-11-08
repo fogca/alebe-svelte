@@ -16,7 +16,7 @@ import { afterNavigate, beforeNavigate } from '$app/navigation';
 <svelte:head>
   <link rel="stylesheet" href="../css/base.css?ver=1.0.1">
   <link rel="stylesheet" href="../css/main.css?ver=1.0.1">
-  <link rel="stylesheet" href="../css/layout.css?ver=1.0.1">
+  <link rel="stylesheet" href="../css/layout.css?ver=1.0.2">
   <link rel="stylesheet" href="https://use.typekit.net/frp6udl.css">
   <script>
     (function(d) {
